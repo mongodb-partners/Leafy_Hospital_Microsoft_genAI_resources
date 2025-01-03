@@ -9,6 +9,8 @@ The solution demonstrates three key technological approaches:
 
 **Predictive AI for early detection** using deep learning models to analyze mammograms and predict BI-RADS scores;
   * The repo includes two models that can be trained and used to predict BI-RADS scores and to classify the cancer as malignant or benign.
+  * The dataset used for the BI-RADS scoring was taken from Kaggle link [here](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset). The dataset contains 1416 cases; all cases include images with two types of views (CC and MLO) for both breasts (right and left). The dataset was classified into 1 to 5 categories in accordance with BI-RADS .
+  * The dataset for the Malignant(M) or Benign(B) classification model was taken from Kaggle link [here](https://www.kaggle.com/datasets/ninjacoding/breast-cancer-wisconsin-benign-or-malignant). It takes 9 parameters and predicts the Class as 2 for Benign and 4 for Malignant.
 
 **Generative AI for workflow automation,** featuring vector search capabilities and RAG-based chatbots for intelligent information retrieval;
   * The repo includes the chatbot code which takes three different contexts into consideration
