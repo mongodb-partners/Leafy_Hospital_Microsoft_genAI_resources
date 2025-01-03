@@ -14,7 +14,8 @@ The solution demonstrates three key technological approaches:
 
 **Generative AI for workflow automation,** featuring vector search capabilities and RAG-based chatbots for intelligent information retrieval;
   * The repo includes the chatbot code which takes three different contexts into consideration
-  * The repo also includes the code to add documentation to MongoDB Atlas by chunking, vectorising the chunks and inserting into MongoDB collection
+  * The repo also includes the code to add documentation to MongoDB Atlas by chunking, vectorising the chunks and inserting into a MongoDB collection
+      * The pdfDataBot.py is a streamlit application and needs to be invoked by running the command - "streamlit run pdfDataBot.py"
 
 **Advanced Analytics** that combines real-time operational insights with long-term trend analysis through Power BI integration.
 
