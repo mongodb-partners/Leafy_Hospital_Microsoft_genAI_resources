@@ -14,6 +14,10 @@ The solution demonstrates three key technological approaches:
 
 **Generative AI for workflow automation,** featuring vector search capabilities and RAG-based chatbots for intelligent information retrieval;
   * The repo includes the chatbot code which takes three different contexts into consideration
+      * The chatbot code has been modified to work as a standalone python code. Thus, hardcodings are used. It uses there different collections to give three different contexts to the chatbot.
+      * RAG_collection consists of cancer related guides and documents which is stored as vectorised chunks using the pdfDataBot.py code. The chunks similar to the question asked are vector searched and provided as "Context section" to the chatbot.
+      * Patients collection contains patients basic information like name, age etc. and presented to chatbot as "Patient Info".
+      * Reports collection contains the details of each visit of teh patient and the details gathered during the same. The last 10 visits information is summarised using LLM and provided to the chatbot as "Patient history".
   * The repo also includes the code to add documentation to MongoDB Atlas by chunking, vectorising the chunks and inserting into a MongoDB collection
       * The pdfDataBot.py is a streamlit application and needs to be invoked by running the command - "streamlit run pdfDataBot.py"
 
