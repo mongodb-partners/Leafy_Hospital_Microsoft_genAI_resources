@@ -1,7 +1,7 @@
 # Leafy_Hospital_Microsoft_genAI_resources
 Repo to share the resources used in Leafy Hospital - Microsoft genAI showcase
 
-The repo consists of the artifacts that were mentioned in the blog "AI-Powered Healthcare | MongoDB & Azure".
+The repo consists of the artifacts that were mentioned in the solution "AI-Powered Healthcare with MongoDB & Microsoft".
 
 MongoDB Atlas and Microsoft AI technologies converge in an innovative healthcare solution called "Leafy Hospital," showcasing how cutting-edge technology can transform breast cancer diagnosis and patient care. This integrated system leverages MongoDB's flexible data platform for unifying operational, metadata, and AI data, while incorporating Microsoft's advanced capabilities including Azure OpenAI, Microsoft Fabric, and Power BI to create a comprehensive healthcare analytics and diagnostic solution.
 
